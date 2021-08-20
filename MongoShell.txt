@@ -109,7 +109,6 @@ Note : Do this query without using $and operator.
 
 28. Write a MongoDB query to know whether all the addresses contains the street or not.
 --->  db.restaurant.find({'address.street':{$exists:false}})
---->  db.restaurant.find({'address.street':{$exists:true}})
 
 
 29. Write a MongoDB query which will select all documents in the restaurants collection where the coord field value is Double.

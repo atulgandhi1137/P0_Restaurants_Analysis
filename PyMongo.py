@@ -9,9 +9,9 @@ db = client["restaurants"]
 
 restaurant = db.restaurant
 
-# 1. Write a MongoDB query to display all the documents in the collection restaurants.
-# for i in restaurant.find():
-#     p.pprint(i)
+#1. Write a MongoDB query to display all the documents in the collection restaurants.
+for i in restaurant.find():
+    p.pprint(i)
 
 # 2. Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine for all the documents in the collection restaurant.
 # for i in restaurant.find({},{'restaurant_id':1, 'name':1, 'borough':1, 'cuisine':1}):
